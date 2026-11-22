@@ -1,0 +1,30 @@
+short: パッケージリポジトリのセキュリティ
+title: パッケージリポジトリのセキュリティ（OpenSSF 文書）
+original_title: OpenSSF Securing Software Repositories Working Group
+seo_title: パッケージリポジトリのセキュリティ（OpenSSF Securing Software Repositories WG 文書 日本語訳）
+summary: OpenSSF の Securing Software Repositories Working Group が公開している、パッケージリポジトリ（レジストリ）のセキュリティに関する文書の、非公式な日本語訳。セキュリティの原則（成熟度モデル）、Trusted Publishers、ビルド来歴、パッケージ削除ポリシー、証明（アテステーション）の UI/UX スタイルガイド、Homebrew への提案を全文訳している。
+author: OpenSSF Securing Software Repositories Working Group
+source: https://github.com/ossf/wg-securing-software-repos
+license: CC BY 4.0
+license_url: https://creativecommons.org/licenses/by/4.0/
+version: 2026-11-19 時点（コミット 9c3af8a）
+translated: 2026-11-22
+disclaimer: OpenSSF・Linux Foundation・RustSec・Rust Project・Rust Foundation とは提携していません。
+nav:
+  - {file: principles-for-package-repository-security.html, title: 原則}
+  - {file: trusted-publishers-for-all-package-repositories.html, title: Trusted Publishers}
+  - {file: build-provenance-for-all-package-registries.html, title: ビルド来歴}
+chapters:
+  - {file: overview.html, title: OpenSSF Securing Software Repositories Working Group}
+  - {file: principles-for-package-repository-security.html, title: パッケージリポジトリのセキュリティの原則}
+  - {file: attestations-style-guide.html, title: 証明（アテステーション）の UI/UX スタイルガイド}
+  - {file: attestations-style-guide/level-a.html, title: "スタイルガイド: レベル A - 最低限の要件"}
+  - {file: attestations-style-guide/level-aa.html, title: "スタイルガイド: レベル AA - 中程度"}
+  - {file: attestations-style-guide/level-aaa.html, title: "スタイルガイド: レベル AAA - 最高水準の要件"}
+  - {file: attestations-style-guide/ui-details.html, title: "スタイルガイド: UI の詳細"}
+  - {file: attestations-style-guide/documentation.html, title: "スタイルガイド: ドキュメントに関する推奨事項"}
+  - {file: attestations-style-guide/pypi-case-study.html, title: PyPI での実装事例}
+  - {file: package-deletion-policies.html, title: パッケージ削除ポリシーを作る}
+  - {file: trusted-publishers-for-all-package-repositories.html, title: すべてのパッケージリポジトリに Trusted Publishers を}
+  - {file: build-provenance-for-all-package-registries.html, title: すべてのパッケージレジストリにビルド来歴を}
+  - {file: proposals/build-provenance-and-code-signing-for-homebrew.html, title: Homebrew のビルドの来歴とコード署名}

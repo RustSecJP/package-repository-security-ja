@@ -1,0 +1,26 @@
+# 出典とライセンス
+
+- 原文: OpenSSF Securing Software Repositories Working Group の公開文書（`docs/` 以下） — https://github.com/ossf/wg-securing-software-repos （公開サイト: https://repos.openssf.org/ ）
+- 原著者: OpenSSF Securing Software Repositories Working Group。各文書に記載されている著者は次のとおりです。
+  - Principles for Package Repository Security: Jack Cable (CISA)、Zach Steindler
+  - Style Guide for Attestations UI/UX: Eriol Fox、Nicole Harris、Dustin Ingram、Phillip Drummond、Superbloom Design
+  - Crafting a Package Deletion Policy: Hayley Denbraver
+  - Trusted Publishers for All Package Repositories: Seth Michael Larson (Python Software Foundation)
+  - Build Provenance and Code-signing for Homebrew: William Woodruff、Dustin Ingram
+  - Build Provenance for All Package Registries と原文サイトのトップページ: 著者の記載なし
+- ライセンス: Creative Commons Attribution 4.0 International（CC BY 4.0） — https://creativecommons.org/licenses/by/4.0/
+  - 原文リポジトリの `LICENSE` は、OpenSSF の憲章（https://charter.openssf.org/ ）にもとづき、成果物の種類ごとにライセンスを定めています。ソフトウェアのソースコードは Apache License 2.0、データは Community Data License Agreement のいずれか、仕様は Community Specification License 1.0、それ以外のすべての文書は CC BY 4.0 です。ここで訳した文書には、CC BY 4.0 が適用されます。
+  - 原文リポジトリの `LICENSE` は、`LICENSE` としてそのまま収録しています。原文リポジトリに CC BY 4.0 の全文は含まれていないため、全文は上記の URL を参照してください。
+- 訳した版: 2026-11-19 時点（コミット 9c3af8a36f86ec96001733de6b74c7121acad934）
+- 変更点:
+  - 日本語への翻訳。
+  - 見出しに、原文と同じリンク先の目印を付与。
+  - 原文サイト内のリンク（`/attestations-style-guide/level-a` など）を、この訳の中のページへの相対リンクに変更。
+  - 原文の `docs/index.md` を `overview.md` という名前で収録。
+  - 表示用の書式の調整。
+  - Style Guide for Attestations UI/UX の「調査」の節にある動画へのリンク 1 件は、原文の記法が崩れていたため、同じ URL への正しいリンクに修正。
+  - 図（`imgs/`、`attestations-style-guide/images/`）は原文のまま収録。
+  - スタイルガイドの付属資料（PDF、ZIP、Penpot のファイル）は収録せず、原文サイトへのリンクに変更。
+  - 会議の議事録（2022-2023 Meeting Notes）と `survey/` の調査は訳していません。
+- この翻訳は OpenSSF や Securing Software Repositories Working Group の確認や公認を受けたものではありません。
+- 翻訳日: 2026-11-22

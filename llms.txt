@@ -1,0 +1,7 @@
+# package-repository-security-ja
+
+> RustSecJP（非公式のコミュニティ）による、Rust のセキュリティ文書の非公式な日本語訳。原著者の確認や公認は受けていない。
+
+## 日本語訳
+
+- [パッケージリポジトリのセキュリティ（OpenSSF Securing Software Repositories WG 文書 日本語訳）](https://rustsecjp.github.io/package-repository-security-ja/): OpenSSF の Securing Software Repositories Working Group が公開している、パッケージリポジトリのセキュリティの原則、Trusted Publishers、ビルド来歴、パッケージ削除ポリシー、証明（アテステーション）の UI/UX スタイルガイドなどの、非公式な日本語訳。全 13 章。原文は https://repos.openssf.org/ （CC BY 4.0）。
