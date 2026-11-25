@@ -1,0 +1,12 @@
+{
+  "upstreams": [
+    {
+      "repo": "ossf/wg-securing-software-repos",
+      "branch": "main",
+      "paths": [
+        "docs"
+      ],
+      "base": "9c3af8a36f86ec96001733de6b74c7121acad934"
+    }
+  ]
+}
